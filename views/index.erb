@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Myner Commands</h5>
+        <p class="card-text">A small collection of commands.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><a href="/start">Start Myner</a></li>
+        <li class="list-group-item"><a href="/stop">Stop Myner</a></li>
+        <li class="list-group-item"><a href="/setgpu">Set GPU</a></li>
+        <li class="list-group-item"><a href="/clear">Clear</a></li>
+        <li class="list-group-item"><a href="/">Refresh Info</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-9">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Latest Log Output</h5>
+          <p class="card-text">
+          <% if @logs %>
+            <%= @logs %>
+          <% end %>
+          </p>
+        <a href="/" class="card-link">Refresh</a>
+      </div>
+    </div>
+  </div>
+</div>
