@@ -27,4 +27,8 @@ class Myner
     @logs = ""
   end
 
+  def output
+    @logs = @logs.split("\n")
+  end
+
 end

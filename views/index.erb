@@ -20,9 +20,13 @@
       <div class="card-body">
         <h5 class="card-title">Latest Log Output</h5>
           <p class="card-text">
-          <% if @logs %>
-            <%= @logs %>
-          <% end %>
+            <ul>
+            <% if @logs %>
+              <% @logs.each do |log|%>
+                <li><%= log %></li>
+              <% end %>
+            <% end %>
+          </ul>
           </p>
         <a href="/" class="card-link">Refresh</a>
       </div>

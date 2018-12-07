@@ -5,7 +5,8 @@ require './lib/myner'
 
 get '/' do
   myner = Myner.new
-  @logs = myner.logs
+  logs = myner.logs
+  @logs = logs.split("\n")
   erb(:index)
 end
 
