@@ -4,7 +4,7 @@
 
 ## Description
 
-_This application should be run on a docker host that has an active Myner container instance. It provides a web UI providing detailed information about the running mining software and allows the software to be started, stopped, or display up-to-date information. When run on a properly configured host it also permits a user to adjust overclock/underclock settings. _
+_This application should be run on a docker host that has an active Myner container instance. It provides a web UI providing detailed information about the running mining software and allows the software to be started, stopped, or display up-to-date information. When run on a properly configured host it also permits a user to adjust overclock/underclock settings._
 
 ## Setup/Installation Requirements
 
