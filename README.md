@@ -21,17 +21,6 @@ bundle install
 rails start
 ```
 
-
-## Specifications
-
-### Example Spec:
-
-- [x] Create drink object with name and price
-````
-Input: new Drink("Beer", 7)
-Expected Output: [object Drink]
-````
-
 ## Technologies Used
 _GitHub, Ruby_
 
